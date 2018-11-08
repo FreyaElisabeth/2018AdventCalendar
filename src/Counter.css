@@ -1,0 +1,8 @@
+.Counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: span 4;
+  font-size: 40px;
+  color: #ffa312;
+}

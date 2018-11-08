@@ -1,0 +1,20 @@
+.Door {
+  background-color: #fca212;
+  box-shadow: 5px 5px 5px #ffa312, -5px 5px 5px #ffa312, -5px -5px 5px #ffa312,
+    5px -5px 5px #ffa312;
+  border: 50px solid #b00004;
+  border-top: none;
+  border-bottom: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fca212;
+  font-size: 20px;
+  font-weight: bold;
+  transition: border 1s ease;
+}
+
+.open {
+  border-width: 0;
+  color: #b00004;
+}
